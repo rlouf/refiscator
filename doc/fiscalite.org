@@ -1,0 +1,84 @@
+#+TITLE: Refonte de la fiscalite
+#+AUTHOR: Rémi Louf
+
+Le but est de simplifier la fiscalité. Travail principalement repris du livre de
+Saez, Piketty et Landais. Autres références.
+
+Document de programation lettrée: comme si bien décrit par :merigoux2020, le code fiscal définit une fonction mathématique qui permet de calculer l'impôt dû par un foyer. Il s'agira ici de construire cette fonction.
+
+Il faut ainsi se poser la question de la forme que cette fonction devrait avoir, et comment elle dépend des propriétés des foyers. C'est cette interprétation qui lui donne un sens /politique/ et non seulement /technique/.
+
+Dans une démocratie qui se veut transparente, cette fonction devrait être disponible à tous, auditable par tous. Que ce soit son code source, pour les plus techniques
+
+* Pourquoi refondre et non réformer?
+** TODO Quelques chiffres
+ - Nombres de pages du code fiscal
+ - Evolution dans le temps du nombre d'articles
+ - Complexité de MLLang
+
+** Un impôt inégalitaire
+** Un impôt illisible et non transparent
+
+* Goals
+
+www.monimpot.gouv.fr
+
+Outil en ligne permettant de calculer l'impôt dû et ce qui reste à partir des
+revenus que l'on spécifie. Permet de prédire avec exactitude les changements de
+vie.
+
+* Impôts conservés
+** TVA
+
+** Impôt sur le revenu
+
+Une CSG généralisée, en fait.
+
+Tous les revenus, y compris du capital:
+- *Travail:* L'imposition se fait à la source par l'employeur qui doit
+spécifier le taux effectif d'imposition du salarié. Comme pour l'impôt
+retenu à la source actuellement, le salarié peut opter pour la transmission
+du taux par l'administration fiscale.
+
+** Impôts sur les grandes fortunes
+
+Seuil élevé; stimuler l'économie en poussant à l'investissement dans
+l'économie.
+
+** Impôt sur les successions
+
+0% jusqu'à un plancher.
+
+** Cotisation sociales
+
+* Impôts supprimés
+
+- Frais de notaire
+- IRPP dans sa forme actuel
+- Fusion avec la CSG de l'IRPP
+
+** Taxe foncière
+
+* Aides et dérogations
+
+** Retraites et invalidité
+
+** Revenu d'indépendence pour les jeunes
+
+** Chômage
+
+* Preuve de fonctionnement
+
+- Taux effectif constant au pire, légèrement ascendant.
+- Taux effectif induit une baisse d'impots < 5,000 euros par mois (voir
+sociologiquement et électoralement ce qui est acceptable).
+
+** Corriger les disfonctionnements
+
+Identifier avec l'impôt actuel des situation où:
+- L'augmentation de salaire induit une baisse de niveau de vie en considérant
+les aides, etc.
+- Montrer des exemples où les personnes plus riches paient moins d'impot en taux
+effectif, et dans l'absolu.
+
+Et montrer que ce n'est plus le cas dans le systèe actuel.
