@@ -4,11 +4,23 @@
 Le but est de simplifier la fiscalité. Travail principalement repris du livre de
 Saez, Piketty et Landais. Autres références.
 
-Document de programation lettrée: comme si bien décrit par :merigoux2020, le code fiscal définit une fonction mathématique qui permet de calculer l'impôt dû par un foyer. Il s'agira ici de construire cette fonction.
+Document de programmation lettrée: comme si bien décrit par :merigoux2020, le
+code fiscal définit une fonction mathématique qui permet de calculer l'impôt dû
+par un foyer. Il s'agira ici de construire cette fonction.
 
-Il faut ainsi se poser la question de la forme que cette fonction devrait avoir, et comment elle dépend des propriétés des foyers. C'est cette interprétation qui lui donne un sens /politique/ et non seulement /technique/.
+Deux propriétés de cette fonction sont importantes:
+1. Sa /forme/: c'est-à-dire la façon dont elle dépend des propriétés des foyers.
+   C'est cette interprétation qui transcende sa dimension /technique/ et lui
+   donne un sens /politique/. Faut-il taxer les plus aisés avec un taux marginal plus
+   élevé ou adopter le principe d'une /flat tax/? Les foyers ayant des enfants doivent
+   ils payer marginalement moins d'impôt? Les possesseurs d'art? Les actionnaires?
+2. La somme de son résultat sur l'ensemble de la population, qui définit l'impôt total
+   collecté. Encore une fois, la valeur désirable est un choix /politique/.
 
-Dans une démocratie qui se veut transparente, cette fonction devrait être disponible à tous, auditable par tous. Que ce soit son code source, pour les plus techniques
+Dans une démocratie qui se veut transparente, cette fonction devrait être
+disponible à tous, auditable par tous. Que ce soit son code source, pour les
+plus techniques, ou un outil simple et accessible qui permet à chaque citoyen de
+calculer rapidement l'impôt dû pour les paramètres qu'il aura choisis.
 
 * Pourquoi refondre et non réformer?
 ** TODO Quelques chiffres
