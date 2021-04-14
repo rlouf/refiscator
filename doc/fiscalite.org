@@ -1,6 +1,9 @@
 #+TITLE: Refonte de la fiscalite
 #+AUTHOR: Rémi Louf
 
+* TODO Makefile
+pour compiler en pdf
+
 Le but est de simplifier la fiscalité. Travail principalement repris du livre de
 Saez, Piketty et Landais. Autres références.
 
@@ -39,6 +42,15 @@ Outil en ligne permettant de calculer l'impôt dû et ce qui reste à partir des
 revenus que l'on spécifie. Permet de prédire avec exactitude les changements de
 vie.
 
+* Quelques fait utiles
+
+* TODO ajouter courbe des revenus et quelques propriétés mathématiques importantes
+* TODO budget de l’État
+* TODO intérêts de la dette
+* TODO coût de la collecte de l’impôt, en particulier l’IRPP.
+* TODO revenu national
+* TODO patrimoine national
+
 * Impôts conservés
 ** TVA
 
@@ -64,6 +76,10 @@ l'économie.
 ** Cotisation sociales
 
 * Impôts supprimés
+
+** IRPP
+
+l’IRPP représente X% des recettes fiscales mais Y% de la collecte. Il est illisible.
 
 - Frais de notaire
 - IRPP dans sa forme actuel
@@ -94,3 +110,7 @@ les aides, etc.
 effectif, et dans l'absolu.
 
 Et montrer que ce n'est plus le cas dans le systèe actuel.
+
+* Bénéfices
+
+Au regarde de la courbe des revenus de l’INSEE et de l’ancien système il est possible de calculer avec précision le différentiel en terme de taux marginal et impôt total payé. À recettes constantes il est possible de diminuer l’imposition du plus grand nombre.
