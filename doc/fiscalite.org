@@ -1,8 +1,7 @@
 #+TITLE: Refonte de la fiscalite
 #+AUTHOR: Rémi Louf
 
-* TODO Makefile
-pour compiler en pdf
+* TODO Makefile pour compiler en pdf
 
 Le but est de simplifier la fiscalité. Travail principalement repris du livre de
 Saez, Piketty et Landais. Autres références.
@@ -44,12 +43,21 @@ vie.
 
 * Quelques fait utiles
 
-* TODO ajouter courbe des revenus et quelques propriétés mathématiques importantes
-* TODO budget de l’État
-* TODO intérêts de la dette
-* TODO coût de la collecte de l’impôt, en particulier l’IRPP.
-* TODO revenu national
-* TODO patrimoine national
+** TODO ajouter courbe des revenus et quelques propriétés mathématiques importantes
+
+Montrer que deux courbes de revenu avec la même moyenne et un taux d'imposition
+constant conduisent à deux collectes différentes.
+
+#+begin_src python
+recettes = np.sum(revenues)
+#+end_src
+
+
+** TODO budget de l’État
+** TODO intérêts de la dette
+** TODO coût de la collecte de l’impôt, en particulier l’IRPP.
+** TODO revenu national
+** TODO patrimoine national
 
 * Impôts conservés
 ** TVA
