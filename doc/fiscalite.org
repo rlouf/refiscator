@@ -1,6 +1,14 @@
 #+TITLE: Refonte de la fiscalite
 #+AUTHOR: Rémi Louf
 
+* Notes
+
+** TODO références sur l’impôt individualisé 
+  Piketty et al. préconise un impôt individuel a la fois pour favoriser l’emploi des femmes mais aussi par soucis de simplicité
+** TODO références sur crédit d’impôt constant par enfant
+  Piketty et al préconisent un crédit d’impôt constant par enfant partagé par les parents par défaut.
+
+
 * TODO Makefile pour compiler en pdf
 
 Le but est de simplifier la fiscalité. Travail principalement repris du livre de
@@ -26,12 +34,18 @@ calculer rapidement l'impôt dû pour les paramètres qu'il aura choisis.
 
 * Pourquoi refondre et non réformer?
 ** TODO Quelques chiffres
- - Nombres de pages du code fiscal
+ - Nombres de pages du code général des impôts
  - Evolution dans le temps du nombre d'articles
  - Complexité de MLLang
 
 ** Un impôt inégalitaire
 ** Un impôt illisible et non transparent
+
+Tranches d’imposition marginales auxquelles se superposent des exceptions (prélèvements dérogatoires) rendent la chose illisible et non progressive.
+
+** TODO liste des prélèvements dérogatoires 
+
+Page 70 :landais2010
 
 * Goals
 
@@ -63,6 +77,16 @@ recettes = np.sum(revenues)
 ** TVA
 
 ** Impôt sur le revenu
+
+Assiette
+
+Histoire de la CSG.
+
+Baisser l’impôt des bas salaires pour pouvoir supprimer les allocations. Contribuables et non assistés. 
+
+* TODO trouver étude sur le lien entre imposition des revenus les moins élevés et travail
+
+Suppression de toutes les bouches fiscales dans un premier temps. Réintroduction implique de relever tous les taux effectifs = boucle de rétroaction.
 
 Une CSG généralisée, en fait.
 
