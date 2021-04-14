@@ -1,5 +1,7 @@
 #+TITLE: Refonte de la fiscalite
 #+AUTHOR: Rémi Louf
+#+EMAIL: remilouf@protonmail.com
+#+OPTIONS: author:t date:t ^:nil title:t tex:t tasks:nil
 
 * Notes
 
@@ -32,7 +34,7 @@ disponible à tous, auditable par tous. Que ce soit son code source, pour les
 plus techniques, ou un outil simple et accessible qui permet à chaque citoyen de
 calculer rapidement l'impôt dû pour les paramètres qu'il aura choisis.
 
-* Pourquoi refondre et non réformer?
+* Pourquoi refonte et non réformer?
 ** TODO Quelques chiffres
  - Nombres de pages du code général des impôts
  - Evolution dans le temps du nombre d'articles
@@ -47,15 +49,26 @@ Tranches d’imposition marginales auxquelles se superposent des exceptions (pr�
 
 Page 70 :landais2010
 
-* Goals
+* Principes directeurs
 
-www.monimpot.gouv.fr
+Une politique fiscale bien réfléchie est partie intégrante d'un projet de société. Il est donc nécessaire de penser en amont la politique que nous souhaitons mener avant de s'atteler au travail technique et à la comptabilité. Nous proposons d'articuler le travail dans ce document autour des principes suivants:
 
-Outil en ligne permettant de calculer l'impôt dû et ce qui reste à partir des
-revenus que l'on spécifie. Permet de prédire avec exactitude les changements de
-vie.
+- Tout citoyen possédant des revenus est contribuable;
+- L'impôt est un outil d'émancipation;
+- L'impôt, de par son taux effectif, est progressif;
+- L'impôt est prédictible par tous, et transparent.
 
-* Quelques fait utiles
+À chaque modification de la fonction il s'agira de vérifier que nous n'avons pas violer un de nos principes. Pour certains de ces principes, comme la progressivité, il est possible de mettre en place des /tests automatiques/ qui garantissent les propriétés du code des impôts. Certains principes en revanche ne peuvent être vérifiés que de manière qualitative, et il faudra systématiquement revenir à cette liste pour vérifier que la fonction ne contredit les principes énoncés ci-dessous.
+
+Nous précisions ces principes ci-dessous en les contrastants avec le système tel qu'il existe aujourd'hui.
+
+** Chaque citoyen est contribuable
+
+Deux idées sous-jacentes:
+- Éviter l'évasion fiscale. Quelle que soit la forme des revenus, qu'ils soient du travail ou du capital, les citoyens en possédant sont redevables de l'impôt:
+- Même les revenus les plus faibles sont des contribuables.
+
+** L'impot est un outil d'émancipation
 
 ** TODO ajouter courbe des revenus et quelques propriétés mathématiques importantes
 
@@ -73,10 +86,37 @@ recettes = np.sum(revenues)
 ** TODO revenu national
 ** TODO patrimoine national
 
-* Impôts conservés
-** TVA
+- Puisque chaque citoyen paie l'impôt, les moins aisés passent du statut /d'assistés/ à celui de /contribuable/ à taux de prélèvement équivalent.
+- L'impôt tel qu'il existe aujourd'hui n'est pas pensé pour l'émancipation de la femme. Il y a la question du quotient familial qui favorise les grands différentiels de revenu, puis les aides...
 
+** L'impôt est progressif
+
+** L'impôt est prédictible par tous, et transparent
+
+Il subsiste encore chez certains de nos concitoyens la croyance qu'une augmentation de salaire équivaudra à une baisse de revenus.
+
+* Quelques fait utiles
+
+** TODO ajouter courbe des revenus et quelques propriétés mathématiques importantes
+** TODO budget de l’État
+** TODO intérêts de la dette
+** TODO coût de la collecte de l’impôt, en particulier l’IRPP.
+** TODO revenu national
+** TODO patrimoine national
+
+* L'impôt
+** Taxe sur la valeur ajoutée (TVA)
+*** But
+*** Revenu aujourd'hui
+** Impôt sur les Sociétés
 ** Impôt sur le revenu
+*** Impôts remplacés
+**** IRPP
+**** Prime pour l'Emploi (PPE)
+**** Contribution Sociale Généalisée
+
+*** Un impôt individualisé
+*** Fonctionnement
 
 Assiette
 
@@ -98,8 +138,10 @@ du taux par l'administration fiscale.
 
 ** Impôts sur les grandes fortunes
 
-Seuil élevé; stimuler l'économie en poussant à l'investissement dans
-l'économie.
+0% jusque seuil élevé, brusquement progressif ensuite; stimuler l'économie en poussant à l'investissement dans
+l'économie. Voir travaux récents d'Emmanuel Saez repris par Elizabeth Warren.
+
+Anticiper les conséquences possibles (le mythe du millionaire qui s'enfuit)
 
 ** Impôt sur les successions
 
@@ -107,24 +149,14 @@ l'économie.
 
 ** Cotisation sociales
 
-* Impôts supprimés
-
-** IRPP
-
-l’IRPP représente X% des recettes fiscales mais Y% de la collecte. Il est illisible.
-
-- Frais de notaire
-- IRPP dans sa forme actuel
-- Fusion avec la CSG de l'IRPP
-
 ** Taxe foncière
+Quid des frais notaire? Et autres frais de timbre?
 
 * Aides et dérogations
 
 ** Retraites et invalidité
-
 ** Revenu d'indépendence pour les jeunes
-
+** Enfants
 ** Chômage
 
 * Preuve de fonctionnement
