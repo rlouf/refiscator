@@ -9,9 +9,9 @@
   Piketty et al. préconise un impôt individuel a la fois pour favoriser l’emploi des femmes mais aussi par soucis de simplicité
 ** TODO références sur crédit d’impôt constant par enfant
   Piketty et al préconisent un crédit d’impôt constant par enfant partagé par les parents par défaut.
+** TODO Programme d'Elizabeth Warren sur la fiscalité
 
-
-* TODO Makefile pour compiler en pdf
+** TODO Makefile pour compiler en pdf
 
 Le but est de simplifier la fiscalité. Travail principalement repris du livre de
 Saez, Piketty et Landais. Autres références.
@@ -138,18 +138,30 @@ du taux par l'administration fiscale.
 
 ** Impôts sur les grandes fortunes
 
-0% jusque seuil élevé, brusquement progressif ensuite; stimuler l'économie en poussant à l'investissement dans
+0% jusque seuil élevé, brusquement progressif ensuite. Possible en supprimant toutes les niches;
+stimuler l'économie en poussant à l'investissement dans
 l'économie. Voir travaux récents d'Emmanuel Saez repris par Elizabeth Warren.
 
-Anticiper les conséquences possibles (le mythe du millionaire qui s'enfuit)
+Anticiper les conséquences possibles (le mythe du millionaire qui s'enfuit).
+
+Anticiper les problèmes de liquidité pour le paiement de l'impôt, qui /de facto/ définit un plancher minimum.
+
+Nécessaire car grande prospérité du capital et stagnation des revenus. L'impôt pourrait
+d'ailleurs être conditionné à un ratio sur des données fondamentales économique? (effet pervers, manipulation de la statistique publique possible)
+
+Grandes fortunes peuvent se structurer pour avoir peu de revenus actifs du capital qui sont imposables selon le nouvel impôt sur le revenu. Revenus du capital aisément manipulables, cf Lilianne Bettencourt et sa société Clymène.
+
+Implique réallocation du capital.
 
 ** Impôt sur les successions
 
-0% jusqu'à un plancher.
+Pour que ce soit accepté, 0% jusqu'à un plancher. Montages comme Clymène permettent d'éviter l'imposition des revenus du capital.
 
 ** Cotisation sociales
 
 ** Taxe foncière
+
+Remplacée par l'ISF.
 Quid des frais notaire? Et autres frais de timbre?
 
 * Aides et dérogations
@@ -158,6 +170,12 @@ Quid des frais notaire? Et autres frais de timbre?
 ** Revenu d'indépendence pour les jeunes
 ** Enfants
 ** Chômage
+
+* Lutte contre la fraude fiscale
+
+Repésente 100Mds d'euros par ans (cour des comptes). On pourrait y dédier 1 Md d'euros et ça serait rentable. Réaffecter une partie des ressources utilisées pour calculer l'IRPP.
+
+Comme l'IRS aux Etats-Unis, revenus étrangers doivent être déclarés sous peine de sanctions.
 
 * Preuve de fonctionnement
 
