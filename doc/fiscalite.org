@@ -166,9 +166,15 @@ auto-finance un audit régulier
 
 40% exit tax for whoever gives up on nationality.
 
+*** TODO controversial: add example
+
 ** Impôt sur les successions
 
 Pour que ce soit accepté, 0% jusqu'à un plancher. Montages comme Clymène permettent d'éviter l'imposition des revenus du capital.
+
+Peut être évité avec une wealth tax?
+
+*** TODO controversial: add example
 
 ** Cotisation sociales
 
