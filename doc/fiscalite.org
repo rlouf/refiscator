@@ -45,6 +45,8 @@ calculer rapidement l'impôt dû pour les paramètres qu'il aura choisis.
 
 Tranches d’imposition marginales auxquelles se superposent des exceptions (prélèvements dérogatoires) rendent la chose illisible et non progressive.
 
+Sortie de l’euro et fin de la libre circulation des capitaux est inéducable.
+
 ** TODO liste des prélèvements dérogatoires 
 
 Page 70 :landais2010
