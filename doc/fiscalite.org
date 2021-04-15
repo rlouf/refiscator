@@ -109,6 +109,11 @@ Il subsiste encore chez certains de nos concitoyens la croyance qu'une augmentat
 *** But
 *** Revenu aujourd'hui
 ** Impôt sur les Sociétés
+
+Plus gros écueil = éviter l’évasion. Résolu par monnaie propre + taxe a-la Janet Yellen.
+
+Est-il possible d’alléger la fiscalité sur les TPE? Comment? Quel seuil?
+
 ** Impôt sur le revenu
 *** Impôts remplacés
 **** IRPP
@@ -151,7 +156,15 @@ d'ailleurs être conditionné à un ratio sur des données fondamentales économ
 
 Grandes fortunes peuvent se structurer pour avoir peu de revenus actifs du capital qui sont imposables selon le nouvel impôt sur le revenu. Revenus du capital aisément manipulables, cf Lilianne Bettencourt et sa société Clymène.
 
-Implique réallocation du capital.
+Induit réallocation du capital.
+
+Toucher les .01% les plus riches. Taxe progressive 2% per annum and  10% above 1 billion?
+
+Si difficultés de paiement, peut être retardé de X années avec intérêts.
+
+auto-finance un audit régulier 
+
+40% exit tax for whoever gives up on nationality.
 
 ** Impôt sur les successions
 
