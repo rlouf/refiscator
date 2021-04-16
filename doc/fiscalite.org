@@ -216,6 +216,10 @@ effectif, et dans l'absolu.
 
 Et montrer que ce n'est plus le cas dans le systèe actuel.
 
+* Gagnants et "perdants"
+
+Important d’être transparents là dessus et expliquer *pourquoi*.
+
 * Bénéfices
 
 Au regarde de la courbe des revenus de l’INSEE et de l’ancien système il est possible de calculer avec précision le différentiel en terme de taux marginal et impôt total payé. À recettes constantes il est possible de diminuer l’imposition du plus grand nombre.
