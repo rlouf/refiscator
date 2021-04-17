@@ -108,6 +108,13 @@ Il subsiste encore chez certains de nos concitoyens la croyance qu'une augmentat
 
 * L'impôt
 ** Taxe sur la valeur ajoutée (TVA)
+
+Taxe régressive : revenus les moins élevés dépensent toute leur salaires amers que les plus aisés économisent et investissent. 
+
+Est-ce que l’on peut voir l’ISF comme le pendant de la TVA pour les plus aisés ?
+
+(Zuckman & Saez p18) IR existe pour compenser la regressivite de la TVA et des tarifs douaniers
+
 *** But
 *** Revenu aujourd'hui
 ** Impôt sur les Sociétés
