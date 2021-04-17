@@ -230,3 +230,23 @@ Important d’être transparents là dessus et expliquer *pourquoi*.
 * Bénéfices
 
 Au regarde de la courbe des revenus de l’INSEE et de l’ancien système il est possible de calculer avec précision le différentiel en terme de taux marginal et impôt total payé. À recettes constantes il est possible de diminuer l’imposition du plus grand nombre.
+
+
+\appendix
+
+* Sources de données 
+
+* Remarques générales sur l’extrapolation des données et les calculs de l’impôt 
+
+** Inférer les distributions réelles à partir de la statistique publique
+
+Statistique publique censée donner un échantillon représentatif de la société française, mais échantillon réduit.
+
+Multiplier par un coefficient de proportionnalité = hypothèse que la quantité est distribuée selon une loi exponentielle.
+
+*** Quelles données ?
+
+*** De quelles distributions a-t-on besoin?
+
+*** Famille de distributions 
+
