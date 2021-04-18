@@ -16,6 +16,12 @@
 Le but est de simplifier la fiscalité. Travail principalement repris du livre de
 Saez, Piketty et Landais. Autres références.
 
+- À cause de la complexité, le principe d’ impôt égal à revenu égal n’est plus une réalité 
+
+.2% sur les actions des entreprises publiques. Impossibles à éviter. Nouvelles actions si besoin de liquidités.
+Wealth tax on corporations stock: https://gabriel-zucman.eu/files/SaezZucman2021EP.pdf
+
+
 Document de programmation lettrée: comme si bien décrit par :merigoux2020, le
 code fiscal définit une fonction mathématique qui permet de calculer l'impôt dû
 par un foyer. Il s'agira ici de construire cette fonction.
