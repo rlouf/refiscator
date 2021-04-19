@@ -155,6 +155,12 @@ Tous les revenus, y compris du capital:
 spécifier le taux effectif d'imposition du salarié. Comme pour l'impôt
 retenu à la source actuellement, le salarié peut opter pour la transmission
 du taux par l'administration fiscale.
+** Impôt sur les sociétés 
+
+Les plus riches le sont via la possession du capital d’entreprise. L’impôt sur les sociétés (ou les actions des entreprises publiques) est donc une taxe minimum payée par les plus riches.
+
+Années 50-60 aux US c’était la principale contribution des .1% les plus riches, et s’est progressivement érodée depuis (plus que toutes les autres formes d’impôts).
+
 
 ** Impôts sur les grandes fortunes
 
